@@ -20,6 +20,19 @@ gitlens
 head> all the link, logics,css, title & meta
 body> all the content visible to user
 
+inline
+> inline element start in the same
+> it will only take required space
+span,a,img
+
+Block level
+> Every time start from new line
+> It will take the whole width of screen
+p,div,h1
+
+src > source 
+href => hyper refernce 
+rel > releated to
 
 > DataTypes
 > variable
