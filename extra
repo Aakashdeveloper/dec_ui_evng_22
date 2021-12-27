@@ -43,6 +43,41 @@ dl > descriptive list
 dt > data term
 dd > data description
 
+////////////////////////////////////////////////////////////////
+inline > writing in css inside html tags
+styleTag > providing styletag in head of html
+styleSheet > providing css in separate file
+
+inline > styleTag > styleSheet
+
+h1
+inline
+{
+    color:red;
+    font-size:30px
+}
+
+styleTag
+{
+    color:orange;
+    text-align:center
+}
+styleSheet
+{
+    text-align:right;
+    font-weight:bold
+}
+
+h1
+{
+    color:red;
+    font-size:30px;
+    text-align:center;
+    font-weight:bold;
+}
+
+px 1px= 1/96inch
+
 > DataTypes
 > variable
 > alert console prompt
