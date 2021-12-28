@@ -1,0 +1,18 @@
+header{
+    text-align:center;
+    color:#116fe6
+}
+
+/*Card Css*/
+.card{
+    height:400px;
+    width:20%;
+    background-color:pink;
+    display:inline-block;
+    margin:2%
+}
+
+footer{
+    text-align:center;
+    color:#116fe6
+}

@@ -78,6 +78,15 @@ h1
 
 px 1px= 1/96inch
 
+/// target ///
+> tagName (h1,p)
+if we target through p tag than all the ptag of page will get same properties
+> id (#)
+To target something unique
+> class (.)
+To target something common
+
+
 > DataTypes
 > variable
 > alert console prompt
