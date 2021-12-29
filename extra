@@ -87,6 +87,9 @@ To target something unique
 To target something common
 
 
+display: inline-block > if content in all the div is same
+float:left > when content is not same
+
 > DataTypes
 > variable
 > alert console prompt
