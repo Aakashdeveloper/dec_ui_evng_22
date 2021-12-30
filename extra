@@ -90,6 +90,12 @@ To target something common
 display: inline-block > if content in all the div is same
 float:left > when content is not same
 
+solid
+dotted
+dashed
+double
+groove
+
 > DataTypes
 > variable
 > alert console prompt

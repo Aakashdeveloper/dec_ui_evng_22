@@ -1,0 +1,50 @@
+body{
+    margin:auto
+}
+/*header css*/
+#header{
+    height:60px;
+    width:100%;
+    background:#d2a08c
+}
+
+#logo{
+    float:left;
+    font-size:30px;
+    color:#13648c;
+    font-weight: bold;
+    margin-left:1%;
+    margin-top:10px;
+}
+
+#social{
+    float:right
+}
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+a{
+    text-decoration:none
+}
+
+/*search css*/
+#search{
+    height:450px;
+    background-image:url('images/foodWallpaper.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-size: 100% 450px;
+
+}
+#quickSearch{
+    height:600px;
+    width:100%;
+    border:2px solid #ce1414;
+}
+#footer{
+    height:60px;
+    width:100%;
+    border:2px solid green;
+}
