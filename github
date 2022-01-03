@@ -1,2 +1,17 @@
 > git clone https://github.com/Aakashdeveloper/dec_ui_evng_22
 > git pull
+
+/// push code to github
+
+> first time from new folder
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/homepage.git
+git push -u origin master
+
+
+> next all time from same folder
+git add .
+git commit -m "first commit"
+git push
