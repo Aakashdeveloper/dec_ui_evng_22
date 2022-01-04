@@ -31,20 +31,95 @@ a{
 
 /*search css*/
 #search{
-    height:450px;
+    height:400px;
     background-image:url('images/foodWallpaper.png');
     background-repeat:no-repeat;
     background-size:cover;
     background-size: 100% 450px;
 
 }
-#quickSearch{
-    height:600px;
-    width:100%;
-    border:2px solid #ce1414;
+
+#icon{
+    height:150px;
+    width:150px;
+    background-color:rgba(245, 230, 230,0.8);
+    border-radius:50%;
+    margin-left:42%;
+    margin-top:3%;
+    position: absolute;
+    font-size:80px;
+    color:#13648c
 }
+
+#icon > span{
+    left:16%;
+    top:18%;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#heading{
+    left:26%;
+    top:34%;
+    position: absolute;
+    color:white;
+    font-size:45px;
+}
+
+#dropdown{
+    left:24%;
+    top:45%;
+    height:60px;
+    width:50%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size:20px  
+}
+.restSelect{
+    width:59%;
+}
+
+/* Quick css*/
+#quickSearch{
+    width: 80%;
+    margin-left:10%;
+    margin-top:3%;
+}
+.quickHeading{
+    display:block;
+    font-size:30px;
+    color:#13648c;
+    font-weight:bold;
+    margin-left: 2%;
+}
+
+.quickSubHeading{
+    font-size:20px;
+    line-height: 2;
+    color:gray;
+    margin-left: 2%;
+}
+
+
+
+.tileContainer{
+    height:300px;
+    width:30%;
+    float:left;
+    border:2px solid red;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+
 #footer{
     height:60px;
     width:100%;
     border:2px solid green;
+    display: inline-block;
+    margin-top: 2%;
 }
