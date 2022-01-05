@@ -1,5 +1,6 @@
 body{
-    margin:auto
+    margin:auto;
+    background-color:#f1cdd3
 }
 /*header css*/
 #header{
@@ -110,16 +111,53 @@ select{
     height:300px;
     width:30%;
     float:left;
-    border:2px solid red;
     margin-left: 2%;
     margin-top: 2%;
+    box-shadow: 10px 20px 10px gray;
+    border-radius:20%;
 }
 
+.tileComponent1 > img {
+    width:100%;
+    height:180px
+}
+
+.tileComponent2{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tileComponent2 > a {
+    color:black !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tileComponent2 > p {
+    color:#13648c;
+    font-size: 20px;
+}
 
 #footer{
-    height:60px;
-    width:100%;
-    border:2px solid green;
     display: inline-block;
     margin-top: 2%;
+    width:100%;
+    background-color:d2a08c;
+    height:328px;
+}
+.footerSec{
+    height:260px;
+    width:32%; 
+    float: left;
+
+    text-align: center;
+    color: white
+}
+ ul > li {
+    list-style: none !important;
+    font-size:25px;
+ }
+
+.secLast{
+    border: none;
 }
