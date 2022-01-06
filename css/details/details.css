@@ -38,28 +38,59 @@ a{
 }
 /*** Main Css*/
 #container{
-    height:800px;
-    width:80%;
-    margin-left: 10%;
+    height:600px;
+    width:90%;
+    margin-left: 4%;
     margin-top: 2%;
 }
 
-#filter{
-    height:600px;
-    width:20%;
-    border:2px solid rgb(128, 0, 0);
+#imgDiv{
+    height:400px;
+    width:45%;
     float: left;
 }
 
+#imgDiv>img{
+    height:400px;
+    width:100%; 
+}
 #content{
-    height:800px;
-    width:74%;
-    border:2px solid rgb(34, 0, 128);
+    height:500px;
+    width:52%;
+    margin-left: 2%;
     float: left;
-    margin-left: 5%;
+    margin-top: -2%;
+}
+.fa-star{
+    font-size:20px
 }
 
+.checked{
+    color:green;
+    
+}
+.dicons{
+    display: inline-block;
+    margin-left:2%;
+}
+.stock{
+    font-size:33px;
+    color:green
+}
 
+.btn{
+    height:40px;
+    width:200px;
+    font-size:20px;
+    color:white
+}
+
+.btn-checkout{
+    background-color: green;
+}
+.btn-atc{
+    background-color: teal;
+}
 /*** footer Css*/
 #footer{
     display: inline-block;
