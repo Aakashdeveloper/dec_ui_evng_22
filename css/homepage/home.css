@@ -47,29 +47,28 @@ a{
     border-radius:50%;
     margin-left:42%;
     margin-top:3%;
-    position: absolute;
+
     font-size:80px;
     color:#13648c
 }
 
 #icon > span{
-    left:16%;
-    top:18%;
+    margin-left: 1%;
+    top: 14%;
     position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #heading{
-    left:26%;
-    top:34%;
-    position: absolute;
+    margin-left:24%;
+    margin-top:4%;
     color:white;
     font-size:45px;
 }
 
 #dropdown{
     left:24%;
-    top:45%;
+    margin-top:2%;
     height:60px;
     width:50%;
     position: absolute;
@@ -160,4 +159,75 @@ select{
 
 .secLast{
     border: none;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:#f8d6dc
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:#d3f8dc
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:#cfdff5
+    }
+    #dropdown{
+        left:30%;
+    }
+    #heading{
+        left:16%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:#f5d9cb
+    }
+    .tileContainer{
+        width:45%;
+    }
+    #heading{
+        left:16%;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:#ecebc2
+    }
+    .tileContainer{
+        width:75%;
+        margin-top:5%
+    }
+    #heading{
+        left:14%;
+        font-size:40px;
+    }
+    #dropdown{
+        left:17%;
+        width:70%
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:#bec4c0
+    }
+    #heading {
+        left: 0%;
+        font-size: 34px;
+    }
+    #dropdown {
+        left: 0%;
+        width: 100%;
+    }
+    #icon {
+        margin-left: 25%;
+    }
 }
