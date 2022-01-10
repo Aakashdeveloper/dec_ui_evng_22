@@ -18,6 +18,7 @@ body{
     margin-top:10px;
 }
 
+
 #social{
     float:right
 }
@@ -45,19 +46,34 @@ a{
     width:150px;
     background-color:rgba(245, 230, 230,0.8);
     border-radius:50%;
-    margin-left:42%;
+    margin-left:43%;
     margin-top:3%;
-
     font-size:80px;
-    color:#13648c
+    color:#13648c;
+    animation: movelogo 10s infinite;
 }
 
 #icon > span{
-    margin-left: 1%;
-    top: 14%;
+    margin-left: 2%;
+    margin-top: 2%;
     position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@keyframes movelogo{
+    0% {margin-left:43%}
+    25% {margin-left:50%}
+    50% {margin-left:45%}
+    75% {margin-left:40%}
+    100% {margin-left:43%}
+}
+
+/*
+#icon:hover{
+    transition: font-size 10s;
+    font-size:120px;
+}
+*/
 
 #heading{
     margin-left:24%;
@@ -89,12 +105,18 @@ select{
     margin-left:10%;
     margin-top:3%;
 }
+
 .quickHeading{
     display:block;
     font-size:30px;
     color:#13648c;
     font-weight:bold;
     margin-left: 2%;
+}
+
+.quickHeading:hover{
+    color:red;
+    font-size:40px;
 }
 
 .quickSubHeading{
@@ -104,8 +126,6 @@ select{
     margin-left: 2%;
 }
 
-
-
 .tileContainer{
     height:300px;
     width:30%;
@@ -114,11 +134,30 @@ select{
     margin-top: 2%;
     box-shadow: 10px 20px 10px gray;
     border-radius:20%;
+    animation: danceContainer 10s infinite;
 }
 
 .tileComponent1 > img {
     width:100%;
     height:180px
+}
+
+@keyframes danceContainer{
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(0deg)}
+    50% {transform: rotate(5deg)}
+    65% {transform: scale(1.1)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
+}
+
+.tileContainer:hover{
+    transform: scale(1.1)
+    /*
+    transform: scale(1.1)
+    transform: rotate(-20deg)
+    transform: skewY(20deg)
+    */
 }
 
 .tileComponent2{
