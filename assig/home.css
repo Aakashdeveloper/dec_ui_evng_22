@@ -1,0 +1,184 @@
+body{
+    margin:auto;
+    background-color:#f1cdd3
+}
+/*header css*/
+#header{
+    height:60px;
+    width:100%;
+    background:#d2a08c
+}
+
+#logo{
+    float:left;
+    font-size:30px;
+    color:#13648c;
+    font-weight: bold;
+    margin-left:1%;
+    margin-top:10px;
+}
+
+
+#social{
+    float:right
+}
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+a{
+    text-decoration:none
+}
+
+/*search css*/
+#search{
+    height:400px;
+    background-image:url('images/foodWallpaper.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-size: 100% 450px;
+
+}
+
+#icon{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    margin-left:43%;
+    margin-top:3%;
+    font-size:80px;
+    color:#13648c;
+    animation: movelogo 10s infinite;
+}
+
+#icon > span{
+    margin-left: 2%;
+    margin-top: 2%;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes movelogo{
+    0% {margin-left:40%}
+    25% {margin-left:50%}
+    50% {margin-left:45%}
+    75% {margin-left:40%}
+    100% {margin-left:45%}
+}
+
+
+#heading{
+    margin-left: 37%;
+    margin-top: 13%;
+    color: #0b4ea1;
+    font-size: 45px
+}
+
+#dropdown{
+    left:24%;
+    margin-top:2%;
+    height:60px;
+    width:50%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size:20px  
+}
+.restSelect{
+    width:59%;
+}
+
+/* Quick css*/
+#quickSearch{
+    width: 80%;
+    margin-left:10%;
+    margin-top:3%;
+}
+
+.quickHeading{
+    display:block;
+    font-size:30px;
+    color:#13648c;
+    font-weight:bold;
+    margin-left: 2%;
+}
+
+.quickHeading:hover{
+    color:red;
+    font-size:40px;
+}
+
+.quickSubHeading{
+    font-size:20px;
+    line-height: 2;
+    color:gray;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    height:300px;
+    width:30%;
+    float:left;
+    margin-left: 2%;
+    margin-top: 2%;
+    box-shadow: 10px 20px 10px gray;
+    border-radius:20%;
+    animation: danceContainer 10s infinite;
+}
+
+.tileComponent1 > img {
+    width:100%;
+    height:180px
+}
+
+@keyframes danceContainer{
+    0% {transform: rotate(-5deg)}
+    25% {transform: rotate(0deg)}
+    50% {transform: rotate(5deg)}
+    75% {transform: rotate(0deg)}
+    100% {transform: rotate(-5deg)}
+}
+
+.tileComponent2{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tileComponent2 > a {
+    color:black !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tileComponent2 > p {
+    color:#13648c;
+    font-size: 20px;
+}
+
+#footer{
+    display: inline-block;
+    margin-top: 2%;
+    width:100%;
+    background-color:d2a08c;
+    height:328px;
+}
+.footerSec{
+    height:260px;
+    width:32%; 
+    float: left;
+
+    text-align: center;
+    color: white
+}
+ ul > li {
+    list-style: none !important;
+    font-size:25px;
+ }
+
+.secLast{
+    border: none;
+}

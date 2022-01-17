@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="first.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <hr/>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Employee
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="fname">First Name*</label>
+                            <input class="form-control" id="fname" name="fname" required
+                            placeholder="FirstName"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input class="form-control" id="lname" name="lname"/>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input class="form-control" id="email" name="email"
+                                    type="email"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input class="form-control" id="password" name="pwd"
+                                    type="password" minlength="8"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="password">Image</label>
+                                    <input class="form-control" id="password" name="pwd"
+                                    type="file"/>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Radio-->
+                        <label>Gender</label>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" value="female" name="gender"/>Female
+                            </label>
+                            
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" value="male" name="gender"/>Male
+                            </label>
+                        </div>
+                        <!--Checkbox-->
+                        <label>Languages</label>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="react" name="lang"/>React
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="node" name="lang"/>Node
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="javaScript" name="lang"/>JavaScript
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>Comments</label>
+                            <textarea name="comments" class="form-control" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
