@@ -2,6 +2,7 @@
 > https://github.com/ (signup)
 > https://git-scm.com/downloads (install)
 > https://github.com/Aakashdeveloper (follow)
+> https://nodejs.org/en/
 
 
 html/html5     > Raw Structure
@@ -128,22 +129,19 @@ xxl > 1400px
 > Operations
 > String literals
 > Math
-/////////////
 > String Operations
-
 > let, const
+/////////////
 > localstorage
 > sessionStorage
 > cookies
 
-> github 
-
 > condition
 > if else
 > ternery Operations
+
 > Date
 > switch
-
 > array
 
 > Rest
@@ -192,3 +190,4 @@ xxl > 1400px
 > fabonicci
 > factorial
 > palindrome
+> github 
