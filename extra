@@ -137,35 +137,37 @@ xxl > 1400px
 > condition
  > if else
  > ternery Operations
-/////////////
-
-
 > Date
 > switch
 > array
-
-> Rest
+/////////////
 > loops
 > Functions
+> Rest
+
 > spread
 > Es6
     > maps,filter
 > regex
+
 > destructuring
 > Closures
 > Hoisting
 > object 
 > JSON
+
 > Es6
     > Transpile
     > import export
 > package.JSON
 > npm
 > this
+
 > Es6
     > classes
 > Prototypes
 > DoM
+
 > Calc
 > Form validation
 > Event
