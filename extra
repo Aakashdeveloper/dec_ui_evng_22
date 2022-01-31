@@ -141,21 +141,19 @@ xxl > 1400px
 > switch
 > array
 > loops
-/////////////
 > Functions
 > Rest
 > spread
-
+> destructuring
+/////////////
 > Es6
     > maps,filter
 > regex
-
-> destructuring
 > Closures
 > Hoisting
+
 > object 
 > JSON
-
 > Es6
     > Transpile
     > import export
