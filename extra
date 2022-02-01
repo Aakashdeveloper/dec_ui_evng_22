@@ -145,15 +145,15 @@ xxl > 1400px
 > Rest
 > spread
 > destructuring
-/////////////
 > Es6
     > maps,filter
 > regex
-> Closures
 > Hoisting
-
+/////////////
+> Closures
 > object 
 > JSON
+
 > Es6
     > Transpile
     > import export
