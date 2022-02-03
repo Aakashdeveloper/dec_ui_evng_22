@@ -149,17 +149,17 @@ xxl > 1400px
     > maps,filter
 > regex
 > Hoisting
-/////////////
 > Closures
 > object 
 > JSON
-
+> this
+/////////////
 > Es6
     > Transpile
     > import export
 > package.JSON
 > npm
-> this
+
 
 > Es6
     > classes
