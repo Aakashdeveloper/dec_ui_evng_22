@@ -153,19 +153,16 @@ xxl > 1400px
 > object 
 > JSON
 > this
-/////////////
 > Es6
     > Transpile
     > import export
 > package.JSON
 > npm
-
-
 > Es6
     > classes
 > Prototypes
+/////////////
 > DoM
-
 > Calc
 > Form validation
 > Event
@@ -191,3 +188,12 @@ xxl > 1400px
 > factorial
 > palindrome
 > github 
+
+
+//////////////////
+*NodeJs must be installed
+> go inside the folder
+> npm init -y
+
+> go inside the folder
+> npm i @babel/core @babel/preset-env @babel/register
