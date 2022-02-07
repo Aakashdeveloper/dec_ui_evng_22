@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>
+            #first{
+                width:100%;
+                height:500px;
+                background-color: red;
+            }
+            #second{
+                width:30%;
+                height:300px;
+                background-color: green;
+                margin:auto ;
+                border:2px solid black;
+                display: none;
+            }
+        </style>
+        <script>
+            function coupon(){
+                setTimeout(function(){
+                    let cop = document.getElementById("second")
+                    cop.style.display = "block"
+                },5000)
+            }
+
+            function close1(){
+                let cop = document.getElementById("second")
+                cop.style.display = "none"
+            }
+        </script>
+    </head>
+    <body>
+        <div id="first">
+            <div id="second">
+                <button onClick="close1()">&times;</button>
+            </div>
+        </div>
+        <script>
+            window.onload = coupon()
+        </script>
+    </body>
+</html>

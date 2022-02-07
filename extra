@@ -161,24 +161,27 @@ xxl > 1400px
 > Es6
     > classes
 > Prototypes
-/////////////
 > DoM
 > Calc
+> dark/light mode
+> set interval
+> set timeout
+> debouncing
+> screen
+/////////////
 > Form validation
 > Event
 > dummyAPi jsonserver
-> dark/light mode
+> Call/Apply
+
 > currenyConvertor
 > promis
 > async await
 > Geolocation
 > Dynamic DropDown
-> screen
-> set interval
-> set timeout
-> debouncing
 > Progress bar
-> Call/Apply
+
+
 > Basic Jquery
 > DataTables
 > Weather application

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script>
+            var timer;
+            function myClick(){
+                console.log("Button Clicked",Math.random())
+            }
+            function myDebounce(){
+                clearTimeout(timer);
+                timer = setTimeout(function(){
+                    myClick()
+                },300)
+            }
+        </script>   
+    </head>
+    <body>
+        <button onClick="myDebounce()">Click Me</button>
+      
+    </body>
+</html>
