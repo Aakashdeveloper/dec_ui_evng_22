@@ -1,0 +1,37 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button onClick="geolocation()">
+            Get Location
+        </button>
+        <p id="out"></p>
+        <p id="city"></p>
+        <script>
+            let x = document.getElementById('out');
+            let y = document.getElementById('city')
+            function geolocation(){
+                if(navigator.geolocation){
+                    navigator.geolocation.getCurrentPosition(showPosition)
+                }else{
+                    x.innerText = 'Geo Not Supported'
+                }
+            }
+
+            function showPosition(data){
+                console.log(data)
+                let lat = data.coords.latitude;
+                let long = data.coords.longitude;
+                x.innerText =`Latitude is ${lat} & longitude is ${long}`
+                var url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=1&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+                fetch(url)
+                .then((res)=> res.json())
+                .then((data) => {
+                    console.log(data.city.name)
+                    y.innerText = `Your City is ${data.city.name}`
+                })
+            }
+        </script>
+    </body>
+</html>
